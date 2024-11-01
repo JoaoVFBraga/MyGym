@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>MyGym Academia</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <h1><a href="#">My<span>Gym</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#pq">Porque nós?</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#cadastro" class="header-cadastrar">Cadastrar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="intro">
+    <div class="intro-content">
+      <h2>My<span class="span-intro">Gym</span></h2>
+      <p>A academia com a estrutura que você tanto sonhou agora virou realidade! Venha cuidar da sua saúde com quem
+        realmente entende sobre musculação.</p>
+      <button><a href="#planos">Conheça nossos planos</a></button>
+    </div>
+  </section>
+  <section class="section1" id="pq">
+    <div class="section1-container">
+      <h2>Porque a MyGym?</h2>
+      <div class="section1-flex">
+        <div class="section1-text">
+          <p>Somos uma das maiores redes de acadêmias do Brasil, porém temos um diferencial: Estamos realmente
+            preocupados com a saúde e o bem-estar de cada um dos nosso alunos. Contamos com a melhor estrutura, os
+            melhores equipamentos e os melhores professores.</p>
+          <ul class="vantagens-ul">
+            <li class="hidden"><img src="img/icons/icons8-gym-60.png" alt=""><span>Melhor Estrutura</span>Espaço amplo
+              para realização de exercícios</li>
+            <li class="hidden"><img src="img/icons/icons8-weight-96.png" alt=""><span>Melhores
+                Equipamentos</span>Utilizamos apenas equipamentos importados para garantir a realização do seu treino
+            </li>
+            <li class="hidden"><img src="img/icons/icons8-personal-trainer-50 (1).png" alt=""><span>Melhores
+                Professores</span>Cada um dos nossos professores passaram por uma rigorosa avaliação para garantir o
+              melhor ensino e segurança na hora de treinar</li>
+          </ul>
+        </div>
+        <div>
+          <picture class="pq-img"><img src="img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
+              alt="Homem fazendo exercicio para costas"></picture>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section1" id="planos">
+    <div class="section1-container">
+      <h2>Conheça nossos planos</h2>
+      <div class="planos-container">
+        <div class="plano-mensal plano-basico hidden">
+          <h3>Mensal Básico</h3>
+          <ul class="planos-ul">
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Acesso total aos equipamentos</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Sem limite de horas por dia</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Ficha de treino personalizado</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Avaliação física mensal grátis</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Clube de desconto em suplementos</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Personal trainer sem custo adicional</li>
+          </ul>
+          <span>R$ 69.90</span>
+        </div>
+        <div class="plano-mensal plano-master hidden">
+          <h3>Mensal Master</h3>
+          <ul class="planos-ul">
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Acesso total aos equipamentos</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Sem limite de horas por dia</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Ficha de treino personalizado</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Avaliação física mensal grátis</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Clube de desconto em suplementos</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Personal trainer sem custo adicional</li>
+          </ul>
+          <span>R$ 149.90</span>
+        </div>
+        <div class="plano-mensal plano-pro hidden">
+          <h3>Mensal Pro</h3>
+          <ul class="planos-ul">
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Acesso total aos equipamentos</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Sem limite de horas por dia</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Ficha de treino personalizado</li>
+            <li><img src="img/icons/icons8-correct-50.png" alt="">Avaliação física mensal grátis</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Clube de desconto em suplementos</li>
+            <li><img src="img/icons/icons8-wrong-50.png" alt="">Personal trainer sem custo adicional</li>
+          </ul>
+          <span>R$ 99.90</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section1" id="cadastro">
+    <div class="section1-container">
+      <h2>Faça seu cadastro</h2>
+      <div class="form-container">
+        <p>Informe seus dados pessoais e entre em contato com um atendente da nossa equipe para realizar seu cadastro. É
+          rápido e fácil!</p>
+        <form action="#" class="form">
+          <p>Nome Completo: <input type="text"></p>
+          <p>Data de Nascimento: <input type="text""></p>
+          <p>CEP: <input type=" text""></p>
+          <p>CPF: <input type="text"></p>
+          <p>Número de Telefone: <input type="text"></p>
+          <input type="submit" class="btn-contato" value="Entrar em Contato">
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="section1">
+    <p>By <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-furlan-braga-2b54a7282/" target="_blank">João Braga</a>
+    </p>
+  </footer>
+</body>
+
+</html>
